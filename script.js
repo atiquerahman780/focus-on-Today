@@ -46,7 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const threet = document.querySelector("#threet");
     onet.addEventListener('input', () => {
         localStorage.setItem('one', onet.value);
-        if(onet.value==""){
+        const tick = document.querySelector("#tick1");
+        if(onet.value==""&& tick.style.display === "block"){
           const tick = document.querySelector("#tick1");
           
           tick.style.display = "none"; // Hide the element
@@ -59,7 +60,8 @@ document.addEventListener("DOMContentLoaded", () => {
       });
       twot.addEventListener('input', () => {
         localStorage.setItem('two', twot.value);
-        if(twot.value==""){
+        const tick = document.querySelector("#tick2");
+        if(twot.value==""&& tick.style.display === "block"){
           const tick = document.querySelector("#tick2");
           
           tick.style.display = "none"; // Hide the element
@@ -72,13 +74,15 @@ document.addEventListener("DOMContentLoaded", () => {
       });
       threet.addEventListener('input', () => {
         localStorage.setItem('three', threet.value);
-        if(threet.value==""){
+        const tick = document.querySelector("#tick3");
+        if(threet.value=="" && tick.style.display === "block"){
           const tick = document.querySelector("#tick3");
          
           tick.style.display = "none"; // Hide the element
           circul3.style.backgroundColor = "white";
           localStorage.setItem('todo3', false);
           const count = localStorage.getItem('count');
+          if(count)
           localStorage.setItem('count', +count-1);
           greenbar()
         }
