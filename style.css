@@ -1,0 +1,145 @@
+body {
+  background-color: #f2f8ed;
+  font-family: "Poppins";
+}
+
+#startTitle {
+  color: #3a9e4b;
+}
+#endTitle {
+  color: #61481c;
+}
+#title {
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 64px;
+  padding: 10px;
+}
+#card {
+  margin: auto;
+  background-color: #fbfbfb;
+  max-width: 660px;
+  
+  border-radius: 15px;
+  margin-bottom: 100px;
+}
+
+#suraj {
+  width: 40px;
+  vertical-align: middle;
+}
+#ContentLineOne {
+  font-weight: 700;
+  font-size: 32px;
+  padding-right: 10px;
+}
+#instruction {
+  padding-top: 7px;
+  padding-bottom: 5px;
+  font-weight: 400px;
+}
+.RadioBtn {
+  height: 80px;
+  border-radius: 15px;
+  border-color: #e2e2e2;
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  
+}
+.textinput {
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  background-color: #fbfbfb;
+  width: 364px;
+  height: 28px;
+  vertical-align: top;
+}
+
+#bar{
+  height: 15px;
+  background-color: #e9f2e2;
+  background : "linear-gradient(to right, green 0%, #ddd 0% 100%)";
+  border-radius: 15px;
+}
+
+#circul1{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border-width: 21x ;
+  margin-left: 20px;
+  border-style: solid;
+  border-width: thin;
+  display: flex;
+  text-align: center;
+  /* background-color: #48A300; */
+}
+#circul2{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border-width: 21x ;
+  margin-left: 20px;
+  border-style: solid;
+  border-width: thin;
+  display: flex;
+  text-align: center;
+  /* background-color: #48A300; */
+}
+#circul3{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border-width: 21x ;
+  margin-left: 20px;
+  border-style: solid;
+  border-width: thin;
+  display: flex;
+  text-align: center;
+  /* background-color: #48A300; */
+}
+#reset{
+  margin: 10px;
+
+}
+@media (max-width: 500px) {
+  #circul1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-width: 21x ;
+    margin-left: 20px;
+    border-style: solid;
+    border-width: thin;
+    display: flex;
+    text-align: center;
+    /* background-color: #48A300; */
+  }
+  #circul2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-width: 21x ;
+    margin-left: 20px;
+    border-style: solid;
+    border-width: thin;
+    display: flex;
+    text-align: center;
+    /* background-color: #48A300; */
+  }
+  #circul3{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-width: 21x ;
+    margin-left: 20px;
+    border-style: solid;
+    border-width: thin;
+    display: flex;
+    text-align: center;
+    /* background-color: #48A300; */
+  }
+}
